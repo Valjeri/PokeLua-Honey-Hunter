@@ -1,3 +1,16 @@
+-- Honey Hunter 1.0
+-- Honey Tree RNG helper for Pokemon Platinum
+--
+-- Derived from Real96/PokeLua:
+-- https://github.com/Real96/PokeLua
+--
+-- Original PokeLua code and contributors remain credited to the upstream project.
+-- Honey Hunter adds Munchlax Tree species prediction, automatic personal
+-- Munchlax Tree calculation, and Honey Tree RNG helper functionality.
+--
+-- Licensed under the GNU General Public License v3.0.
+-- See the LICENSE file in this repository.
+
 read32Bit = memory.readdwordunsigned
 read16Bit = memory.readword
 read8Bit = memory.readbyte
